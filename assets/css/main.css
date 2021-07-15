@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game-wrapper {
+    margin: 2.5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.technologies-wrapper {
+    height: 10vh;
+}
+
+.bin-wrapper {
+    align-self: flex-end;
+}
+
+.bin {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: calc(100% - 30px);
+    left: calc(50% - 15px);
+    transition: left .1s;
+}
+
+.technologies-wrapper,
+.bin-wrapper {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background-color: bisque;
+}
+
+.main {
+    background-color: #f2f2ff;
+    box-shadow: 0 0 10px #4169e1;
+    width: 600px;
+    height: 80vh;
+    margin: 2.5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-img {
+    max-height: 5vh;
+}
